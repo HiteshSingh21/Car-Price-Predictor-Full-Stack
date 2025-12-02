@@ -1,4 +1,4 @@
-# 🚗 Carify - AI-Powered Luxury Car Valuation Platform
+#  Carify - AI-Powered Luxury Car Valuation Platform
 
 *Carify* is a full-stack machine learning application that provides instant, accurate market valuations for luxury vehicles. Unlike simple regression tools, Carify leverages a state-of-the-art *FT-Transformer (Feature Tokenizer Transformer)* deep learning model to understand complex, non-linear relationships in automotive data.
 
@@ -11,7 +11,7 @@ Beyond just prediction, it features a "Smart Search" engine that recommends simi
 
 ---
 
-## 🧠 The Machine Learning Engine: FT-Transformer
+##  The Machine Learning Engine: FT-Transformer
 
 The heart of Carify is not a standard Random Forest or Linear Regression model. We utilized *PyTorch Tabular* to implement a deep learning architecture specifically designed for structured data.
 
@@ -24,15 +24,15 @@ Standard neural networks often struggle with tabular data (categorical + numeric
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 🎨 Modern Frontend
+###  Modern Frontend
 * *Framework:* Built with *Next.js 15* and *React 19* for server-side rendering and speed.
 * *UI/UX:* Styled with *Tailwind CSS* and *Shadcn/UI* components for a premium, dark-mode aesthetic.
 * *Interactive 3D:* Dynamically loaded 3D car visualizations.
 * *Real-time Validation:* Robust form handling using *Zod* and *React Hook Form*.
 
-### 🐍 Powerful Backend
+###  Powerful Backend
 * *API:* High-performance *Flask* server acting as the inference engine.
 * *Smart Search Algorithm:* A 3-tier fallback system to ensure users always get results:
     1.  Strict: Matches exact Body Type within a ±30% price range.
@@ -40,7 +40,7 @@ Standard neural networks often struggle with tabular data (categorical + numeric
     3.  Ultimate Fallback: Displays featured inventory if specific criteria aren't met.
 * *Robust Database:* *SQLAlchemy* with connection pooling (pool_pre_ping, pool_recycle) to maintain stable connections to Supabase, even during idle periods.
 
-### 🤖 Automation & Data
+###  Automation & Data
 * *Database:* Hosted *PostgreSQL* on Supabase.
 * *Auto-Image Population:* Includes a custom Python script (populate_images_wiki.py) that:
     1.  Scans the database for cars missing images.
@@ -49,7 +49,7 @@ Standard neural networks often struggle with tabular data (categorical + numeric
 
 ---
 
-## 🛠 Technology Stack
+##  Technology Stack
 
 | Component | Technology |
 | :--- | :--- |
@@ -62,7 +62,7 @@ Standard neural networks often struggle with tabular data (categorical + numeric
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 * *Node.js* & *Bun* installed.
@@ -132,7 +132,7 @@ Open [http://localhost:3000](https://www.google.com/search?q=http://localhost:30
 
 -----
 
-## 📸 Populating Car Images
+##  Populating Car Images
 
 If your database has car data but no images, run the included utility script:
 
@@ -145,7 +145,7 @@ python populate_images_wiki.py
 
 -----
 
-## 🔮 Future Roadmap
+##  Future Roadmap
 
   * [ ] *User Authentication:* Save valuation history and favorite cars.
   * [ ] *Full Browse Catalog:* A dedicated page with advanced filters to explore the entire dataset.
@@ -153,7 +153,7 @@ python populate_images_wiki.py
 
 -----
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
