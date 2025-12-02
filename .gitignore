@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Node/Next.js
+node_modules/
+.next/
+.bun/
+build/
+dist/
+.DS_Store
